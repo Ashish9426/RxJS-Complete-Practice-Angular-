@@ -1,0 +1,117 @@
+<div class="my-3">
+    <h2>Filter operator</h2>
+    <br>
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-3">
+            <!-- <strong>Ex - 01 </strong> -->
+            <hr>
+            <p class="bg-light py-2 px-3 border-round"><strong>Filter : </strong> Original Data</p>
+            <br>
+            <table class="table">
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                </tr>
+                <tr *ngFor="let item of data">
+                    <td>{{item.id}}</td>
+                    <td>{{item.name}}</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="col-md-3">
+            <strong>Ex - 01 </strong>
+            <hr>
+            <p class="bg-light py-2 px-3 border-round"><strong>Filter : </strong> By name length > 6</p>
+            <br>
+            <table class="table">
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                </tr>
+                <tr *ngFor="let item of data1">
+                    <td>{{item.id}}</td>
+                    <td>{{item.name}}</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="col-md-3">
+            <strong>Ex - 02 </strong>
+            <hr>
+            <p class="bg-light py-2 px-3 border-round"><strong>Filter : </strong> By Gender</p>
+            <br>
+            <table class="table">
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                </tr>
+                <tr *ngFor="let item of data2">
+                    <td>{{item.id}}</td>
+                    <td>{{item.name}}</td>
+                    <td>{{item.gender}}</td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-md-3">
+            <strong>Ex - 03 </strong>
+            <hr>
+            <p class="bg-light py-2 px-3 border-round"><strong>Filter : </strong> By nth Item </p>
+            <br>
+            <table class="table">
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                </tr>
+                <tr *ngFor="let item of data3">
+                    <td>{{item.id}}</td>
+                    <td>{{item.name}}</td>
+                    <td>{{item.gender}}</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="col-md-6">
+            <strong>Ex - 04 </strong>
+            <hr>
+            <p class="bg-light py-2 px-3 border-round"><strong>Filter : </strong> By nth Item > 6and gender= Female</p>
+            <br>
+            <table class="table">
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                </tr>
+                <tr *ngFor="let item of data4">
+                    <td>{{item.id}}</td>
+                    <td>{{item.name}}</td>
+                    <td>{{item.gender}}</td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-md-6">
+            <strong>Ex - 05 </strong>
+            <hr>
+            <p class="bg-light py-2 px-3 border-round"><strong>Filter : </strong> By nth Item > 6 and gender=Male</p>
+            <br>
+            <table class="table">
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                </tr>
+                <tr *ngFor="let item of data5">
+                    <td>{{item.id}}</td>
+                    <td>{{item.name}}</td>
+                    <td>{{item.gender}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+</div>

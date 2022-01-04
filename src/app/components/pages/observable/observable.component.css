@@ -1,0 +1,9 @@
+.list ul a{
+    display: block;
+    padding: 12px;
+    background-color:darkcyan;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+}
